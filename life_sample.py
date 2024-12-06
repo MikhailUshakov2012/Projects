@@ -63,7 +63,7 @@ class Bee(Insects):
         return (f"{self.name},{self.honey},{self.hungry},{self.food},{self.days}")
 
 
-bee = Bee(name="Июль")
+bee = Bee(name="Пчела")
 for i in range(30):
     if not bee.live():
         break
